@@ -1,6 +1,6 @@
 
 body{
-  background-color: #242B2E;
+  background-color: #EAEAEA;
 }
 
 .container{
@@ -19,10 +19,12 @@ body{
 }
 
 .list{
-  width: 200px;
+  width: 350px;
   height: 300px;
   /* border: 1px solid red; */
-  margin: auto;
+  margin-left: 20px;
+  overflow:hidden;
+  
  
 }
 .list ol li{
@@ -37,6 +39,10 @@ body{
 .form input{
   height: 30px;
   width: 70%;
+  outline: none;
+}
+.form input:focus{
+  border: 2px solid rebeccapurple;
 }
 .form button{
   width: 27%;
@@ -46,6 +52,7 @@ body{
   outline:yellow;
   border: none;
 }
+
 .container p{
   text-align: center;
   color: #fff;

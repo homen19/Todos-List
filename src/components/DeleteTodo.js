@@ -1,5 +1,4 @@
-import DeleteIcon from '@mui/icons-material/Delete';
-import { border } from '@mui/system';
+
 
 function DeleteTodo({ todo, setTodos }) {
     function handleDeleteTodo() {
@@ -12,23 +11,12 @@ function DeleteTodo({ todo, setTodos }) {
     }
 
     return (
-        //   <span
-        //     onClick={handleDeleteTodo}
-        //     role="button"
-        //     style={{
-        //       color: "red",
-        //       fontWeight: "bold",
-        //       marginLeft: 10,
-        //       cursor: "pointer"
-        //     }}
-        //   >
-        //     <DeleteIcon fontSize='small'/>
-        //   </span>
+        
         <button
             onClick={handleDeleteTodo}
             style={{
                 marginLeft:10,
-                backgroundColor:'red',
+                backgroundColor:'#ff1744',
                 border: 'none',
                 color:'#fff'
             }}

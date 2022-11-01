@@ -12,13 +12,12 @@ export default function App() {
   return (
     <>
       <div className="container">
-        <h1>Todo List</h1>
+        <h1>To do List</h1>
         
         <AddTodo setTodos={setTodos} />
         <TodoList setTodos={setTodos} todos={todos} />
 
-        <p>Created by Homen Using React js</p>
-
+       
       </div>
     </>
   );
